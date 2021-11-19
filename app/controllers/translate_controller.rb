@@ -45,7 +45,7 @@ class TranslateController < ApplicationController
         900 => "novecentos"
     }
     
-    FB_URL = "https://number-translate.firebaseio.com" 
+    FB_URL = "https://number-translate.firebaseio.com"
 
     def initialize
         file = 'config/number-translate-firebase-adminsdk-n7oou-153245b0e2.json'
